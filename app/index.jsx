@@ -4,7 +4,7 @@ import { render } from 'react-dom';
 import { Provider } from 'react-redux';
 
 import store from './store';
-import SampleApp from './app/containers/sample-app';
+import SampleApp from './containers/sample-app';
 
 class App extends Component {
   render() {
