@@ -1,6 +1,6 @@
 
 const initialState = {
-  counter: 0
+  currentCount: 0
 };
 
 export function increment(state = initialState, action = {}) {

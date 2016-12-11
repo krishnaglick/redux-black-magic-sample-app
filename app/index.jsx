@@ -10,13 +10,10 @@ class App extends Component {
   render() {
     return (
       <Provider store={store}>
-        <SampleApp />
+        <SampleApp store={store} />
       </Provider>
     );
   }
 }
 
-if(typeof window !== 'undefined')
-  render(<App/>, document.getElementById('app'));
-
-module.exports = App;
+render(<App />, document.getElementById('app'));

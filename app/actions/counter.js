@@ -1,12 +1,12 @@
 
-export function increment(counter) {
+export function increment(currentCount) {
   return {
-    counter: counter + 1
+    currentCount: currentCount + 1
   };
 }
 
-export function decrement(counter) {
+export function decrement(currentCount) {
   return {
-    counter: counter - 1
+    currentCount: currentCount - 1
   };
 }
